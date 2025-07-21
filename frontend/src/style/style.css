@@ -1,0 +1,52 @@
+@import 'tailwindcss';
+
+.router-link-active {
+  text-decoration: underline;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+}
+
+.bg-studio-50{background-color:   #faf8fc}
+.bg-studio-100{background-color:  #f2eef9}
+.bg-studio-200{background-color:  #e8e0f4}
+.bg-studio-300{background-color:  #d6c7eb}
+.bg-studio-400{background-color:  #bba3dd}
+.bg-studio-500{background-color:  #69479a}
+.bg-studio-600{background-color:  #8962bb}
+.bg-studio-700{background-color:  #704c9c}
+.bg-studio-800{background-color:  #624485}
+.bg-studio-900{background-color:  #51386b}
+.bg-studio-950{background-color:  #341f4c}
+
+.hover\:.bg-studio-50:hover{background-color:  #faf8fc}
+.hover\:.bg-studio-100:hover{background-color:  #f2eef9}
+.hover\:.bg-studio-200:hover{background-color:  #e8e0f4}
+.hover\:.bg-studio-300:hover{background-color:  #d6c7eb}
+.hover\:.bg-studio-400:hover{background-color:  #bba3dd}
+.hover\:.bg-studio-500:hover{background-color:  #a07fcd}
+.hover\:.bg-studio-600:hover{background-color:  #8962bb}
+.hover\:.bg-studio-700:hover{background-color:  #704c9c}
+.hover\:.bg-studio-800:hover{background-color:  #624485}
+.hover\:.bg-studio-900:hover{background-color:  #51386b}
+.hover\:.bg-studio-950:hover{background-color:  #341f4c}
+
+.border-studio-50{border-color:   #faf8fc}
+.border-studio-100{border-color:  #f2eef9}
+.border-studio-200{border-color:  #e8e0f4}
+.border-studio-300{border-color:  #d6c7eb}
+.border-studio-400{border-color:  #bba3dd}
+.border-studio-500{border-color:  #a07fcd}
+.border-studio-600{border-color:  #8962bb}
+.border-studio-700{border-color:  #704c9c}
+.border-studio-800{border-color:  #624485}
+.border-studio-900{border-color:  #51386b}
+.border-studio-950{border-color:  #341f4c}
+
+.sidebar-studio {
+  background: linear-gradient(180deg, #6b489d 29%, #2e91f7 183%) !important
+  
+}

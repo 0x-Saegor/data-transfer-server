@@ -1,0 +1,10 @@
+# Ignorer le frontend compilé (inutile à runtime)
+*/static/**
+
+# Ignorer les failles non corrigées (par CVE ID)
+CVE-2021-3121    # exemple connu dans Go
+
+# Ignorer certains dossiers ou binaires spécifiques (si scan FS)
+**/node_modules/**
+**/test/**
+**/*.map
