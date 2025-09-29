@@ -140,5 +140,6 @@ func main() {
 	router.GET("/download/:size/:unit", download)
 	router.POST("/upload", upload)
 
+	fmt.Println("Starting server on 0.0.0.0:8080")
 	router.Run("0.0.0.0:8080")
 }
